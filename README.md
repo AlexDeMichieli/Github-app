@@ -22,7 +22,7 @@ npm start
 
 ```sh
 # 1. Build container
-docker build -t weather-app .
+docker build -t chuck-norris-app .
 
 # 2. Start container
 docker run -e APP_ID=<app-id> -e PRIVATE_KEY=<pem-value> weather-app
